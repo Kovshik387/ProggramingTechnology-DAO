@@ -5,32 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8732deb6-8936-4ad9-b9bd-91bf2d25abe7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/DataManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/infrastructure/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/proggramingtechnologydao/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProgrammingTechnology.Authorization/src/main/java/com/auth/ProgrammingTechnology/Authorization/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProgrammingTechnology.Authorization/src/main/java/com/auth/ProgrammingTechnology/Authorization/controller/HealthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProgrammingTechnology.Authorization/src/main/java/com/auth/ProgrammingTechnology/Authorization/dal/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProgrammingTechnology.Authorization/src/main/java/com/auth/ProgrammingTechnology/Authorization/dal/infrastructure/IAccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProgrammingTechnology.Authorization/src/main/java/com/auth/ProgrammingTechnology/Authorization/dal/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProgrammingTechnology.Authorization/src/main/java/com/auth/ProgrammingTechnology/Authorization/dal/repository/AccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/dao/AccountFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/provider/DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/DataManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/dao/AccountDbDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proggramingtechnologydao/model/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2e192SJNLuknuzL9c303cYonzWZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,7 +45,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="RunManager">

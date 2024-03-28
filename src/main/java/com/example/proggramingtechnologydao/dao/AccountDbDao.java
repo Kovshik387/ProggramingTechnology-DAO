@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class AccountDao implements IAccountDao {
+public class AccountDbDao implements IAccountDao {
 
     @Override
     public void add(Account account) throws SQLException {

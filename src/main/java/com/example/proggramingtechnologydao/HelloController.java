@@ -1,11 +1,10 @@
 package com.example.proggramingtechnologydao;
 
-import com.example.proggramingtechnologydao.dao.AccountDao;
+import com.example.proggramingtechnologydao.dao.AccountDbDao;
 import com.example.proggramingtechnologydao.infrastructure.IAccountDao;
 import com.example.proggramingtechnologydao.model.Account;
+import com.example.proggramingtechnologydao.provider.DataProvider;
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableArray;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -30,7 +29,10 @@ public class HelloController implements Initializable {
     private IAccountDao accountDao;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        accountDao = new AccountDao();
+        accountDao = DataProvider.createTaskDao("file");
+
+        if (accountDao == null) return;
+
         try {
             var list = accountDao.getAll().stream().map(Account::toString).toList();
             System.out.println(list.get(0));
